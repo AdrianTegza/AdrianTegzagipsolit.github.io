@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 	<title>МЕХАНИЗИРОВАННАЯ ШТУКАТУРКА СТЕН</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -57,10 +57,10 @@
 					<div class="main-form">
 						<h2>Для расчёта точной стоимости<br>закажите<strong> бесплатный выезд замерщика</strong></h2>
 						<form action="#">
-							<label class='callback-form__label'for="#">Ваше имя</label>
-							<input class='main-form-input' type="text">
-							<label class='callback-form__label' for="#">Номер телефона</label>
-							<input class='main-form-input' type="text">
+							<label class='callback-form__label'for="input-name-1">Ваше имя</label>
+							<input class='main-form-input' id="input-name-1" type="text">
+							<label class='callback-form__label' for="phone-1">Номер телефона</label>
+							<input class='main-form-input' id="phone-1" type="text">
 							<button class='main-form-btn button'type="submit">Оставьте заявку</button>
 							<small>Приедем в день обращения</small>
 						</form>
@@ -130,7 +130,7 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="price-button">
-					<button class="button price-header-btn pricee-btn"data-toggle='modal'>Рассчитать точную стоимость</button>
+					<button class="button price-header-btn pricee-btn"data-toggle='modal'>Рассчитать стоимость</button>
 				</div>
 			</div>
 		</div>
@@ -305,7 +305,7 @@
 			<div class="col-lg-8 offset-lg-2">
 				<div class="feedback-form">
 					<h3>Хотите так же? Оставьте Ваши контактные данные</h3>
-					<form class='main-form'action="#">
+					<form class='main-form feedback-form'action="#">
 						<div class="row">
 							<div class="col-lg-6">
 								<label class='callback-form__label'for="#">Ваше имя</label>
@@ -316,7 +316,7 @@
 						        <input class='main-form-input' type="text">
 							</div>
 						</div>
-						<button class='main-form-btn button'type="submit">Оставьте заявку</button>
+						<button class='main-form-btn feedback-form-btn button'type="submit">Оставьте заявку</button>
 					</form>
 				</div>
 			</div>
